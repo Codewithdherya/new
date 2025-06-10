@@ -1,0 +1,24 @@
+body{
+    background-color: violet;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: initial;
+
+}
+.pinkesh ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    display: flex;
+    gap: 20px;
+    font-size: small;
+}
+.dherya ul{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: brown;
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    border: 50px rgb(254, 239, 239);
+    margin: 5px;
+}
+    

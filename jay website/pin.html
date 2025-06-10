@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sum of Two Numbers</title>
+  <script>
+    function findSum() {
+      // Get values from textboxes
+      let num1 = parseFloat(document.getElementById("number1").value);
+      let num2 = parseFloat(document.getElementById("number2").value);
+      
+      // Check for valid numbers
+      if (isNaN(num1) || isNaN(num2)) {
+        alert("Please enter valid numbers!");
+        return;
+      }
+
+      // Calculate sum
+      let sum = num1 + num2;
+
+      // Display result
+      document.getElementById("result").innerText = "Sum: " + sum;
+    }
+  </script>
+</head>
+<body>
+  <h2>Sum Calculator</h2>
+
+  <label>Enter first number:</label>
+  <input type="text" id="number1"><br><br>
+
+  <label>Enter second number:</label>
+  <input type="text" id="number2"><br><br>
+
+  <button onclick="findSum()">Calculate Sum</button>
+
+  <h3 id="result"></h3>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pinkesh - Sketch Artist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"/>
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <div class="dark-mode-toggle">
+    <button id="toggle-dark"><i class="fas fa-moon"></i></button>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Pinkesh</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1 class="typewriter">Hi, I'm Pinkesh - A Sketch Artist</h1>
+    <p>Bringing life to paper with pencil strokes.</p>
+    <a href="assets/portfolio.pdf" download class="btn">Download Portfolio</a>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2 data-aos="fade-up">My Sketches</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="portrait">Portrait</button>
+      <button class="filter-btn" data-filter="concept">Concept</button>
+    </div>
+    <div class="gallery">
+      <a href="image/1000_F_629777979_e0qTRgGmR5m6Xmrrgvqk7Rrd2qjAJva7.jpg" data-lightbox="gallery" data-title="Portrait 1" class="gallery-item portrait">
+        <img src="image/1000_F_629777979_e0qTRgGmR5m6Xmrrgvqk7Rrd2qjAJva7.jpg" alt="Sketch 1" />
+      </a>
+      <a href="image/1000_F_794810654_oUwrtZ9JO16rPN93lbAguU72lto7QVJ9.jpg" data-lightbox="gallery" data-title="Concept 1" class="gallery-item concept">
+        <img src="image/1000_F_794810654_oUwrtZ9JO16rPN93lbAguU72lto7QVJ9.jpg" alt="Sketch 2" />
+      </a>
+      <a href="image/1000_F_794810654_oUwrtZ9JO16rPN93lbAguU72lto7QVJ9.png" data-lightbox="gallery" data-title="Portrait 2" class="gallery-item portrait">
+        <img src="image/1000_F_794810654_oUwrtZ9JO16rPN93lbAguU72lto7QVJ9.png" alt="Sketch 3" />
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 data-aos="fade-up">About Me</h2>
+    <p data-aos="fade-in">I am Pinkesh, passionate about creating expressive pencil sketches. From live sketches to abstract ideas, my pencil tells stories beyond words.</p>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2 data-aos="fade-up">Testimonials</h2>
+    <div class="testimonial-carousel">
+      <div class="testimonial">"Amazing detail and likeness! My sketch is beautiful." – Riya</div>
+      <div class="testimonial">"Fast, professional and artistic. Highly recommended." – Aarav</div>
+      <div class="testimonial">"Truly a talented hand with a unique style." – Neha</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 data-aos="fade-up">Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/911234567890" class="whatsapp-button" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Instagram Feed -->
+  <section id="instagram">
+    <h2>Instagram Feed</h2>
+    <iframe src="https://snapwidget.com/embed/123456" class="instagram-embed"></iframe>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
